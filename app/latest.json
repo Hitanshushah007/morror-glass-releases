@@ -1,6 +1,6 @@
 {
-  "versionCode": 6,
-  "versionName": "1.5",
-  "url": "https://github.com/Hitanshushah007/morror-glass-releases/releases/download/app-v1.5/morror-art-app.apk",
-  "notes": "Back and Skip on every setup step; updates reachable from inside setup; works with speakers on the August firmware."
+  "versionCode": 7,
+  "versionName": "1.6",
+  "url": "https://github.com/Hitanshushah007/morror-glass-releases/releases/download/app-v1.6/morror-art-app.apk",
+  "notes": "Setup now asks your preferences and checks lyric timing; Look tab: lyrics script, backdrops, timing."
 }
