@@ -1,6 +1,6 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4",
-  "url": "https://github.com/Hitanshushah007/morror-glass-releases/releases/download/app-v1.4/morror-art-app.apk",
-  "notes": "Setup now works with speakers on the August firmware. Type your WiFi name and password; the speaker joins and updates itself."
+  "versionCode": 6,
+  "versionName": "1.5",
+  "url": "https://github.com/Hitanshushah007/morror-glass-releases/releases/download/app-v1.5/morror-art-app.apk",
+  "notes": "Back and Skip on every setup step; updates reachable from inside setup; works with speakers on the August firmware."
 }
