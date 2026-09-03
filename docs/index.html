@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MORROR ART · the app</title>
+<meta name="description" content="Install the MORROR ART app on Android: one download, four taps through Google's warnings, then setup walks you through Bluetooth, WiFi and lyrics.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75,700;75,800&family=Instrument+Sans:wght@400;500;600&family=Rozha+One&display=swap">
+<style>
+  :root { --paper:#F2EEE7; --paper2:#E7E1D6; --card:#FAF8F4; --ink:#14131A; --ink2:#4A4753; --ink3:#8B8794; --accent:#B4543A; --line:rgba(20,19,26,.14); --ok:#2E8B57; }
+  * { box-sizing:border-box; }
+  html, body { margin:0; background:var(--paper); color:var(--ink); font-family:'Instrument Sans', system-ui, -apple-system, sans-serif; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:640px; margin:0 auto; padding:28px 22px 60px; }
+  .wm { font-family:'Rozha One', Georgia, serif; font-size:30px; letter-spacing:.02em; }
+  .caps { font-size:11px; letter-spacing:.28em; text-transform:uppercase; font-weight:600; color:var(--ink3); }
+  h1 { font-family:'Anek Latin','Arial Narrow',sans-serif; font-stretch:75%; font-weight:800; font-size:44px; line-height:1; letter-spacing:-.01em; margin:34px 0 14px; text-wrap:balance; }
+  p { font-size:16px; line-height:1.5; color:var(--ink2); margin:0 0 16px; max-width:58ch; }
+  .dl { display:flex; align-items:center; justify-content:center; height:56px; border-radius:999px; background:var(--ink); color:var(--paper); font-weight:600; font-size:17px; text-decoration:none; margin:22px 0 8px; }
+  .dl:focus-visible { outline:3px solid var(--accent); outline-offset:3px; }
+  .meta { font-size:12px; color:var(--ink3); letter-spacing:.06em; text-align:center; }
+  h2 { font-family:'Anek Latin','Arial Narrow',sans-serif; font-stretch:75%; font-weight:800; font-size:30px; line-height:1; margin:46px 0 10px; }
+  ol.steps { list-style:none; margin:0; padding:0; counter-reset:s; display:flex; flex-direction:column; gap:14px; }
+  ol.steps li { background:var(--card); border-radius:14px; padding:16px 16px 16px 62px; position:relative; }
+  ol.steps li:before { counter-increment:s; content:counter(s); position:absolute; left:16px; top:16px; width:32px; height:32px; border-radius:999px; border:2px solid var(--accent); color:var(--accent); font-weight:700; display:flex; align-items:center; justify-content:center; font-size:14px; }
+  ol.steps b { display:block; font-size:16px; margin-bottom:4px; }
+  ol.steps p { margin:0; font-size:15px; }
+  .say { display:block; margin:8px 0 4px; padding:10px 12px; border-left:3px solid var(--paper2); background:var(--paper); font-size:14px; color:var(--ink2); font-style:italic; }
+  .tap { display:inline-block; padding:3px 10px; border-radius:999px; background:var(--ink); color:var(--paper); font-size:13px; font-weight:600; font-style:normal; }
+  .after { margin-top:44px; padding:18px; border-radius:14px; background:var(--paper2); }
+  .after b { display:block; margin-bottom:6px; }
+  footer { margin-top:44px; font-size:12px; color:var(--ink3); line-height:1.5; }
+  @media (prefers-reduced-motion: no-preference) { .dl { transition:transform .15s ease; } .dl:active { transform:scale(.98); } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="wm">MORROR ART</div>
+  <div class="caps" style="margin-top:6px">The app · Android</div>
+
+  <h1>Sets up your speaker in a few minutes.</h1>
+  <p>WiFi for the lyrics, a sync check, and the look of the glass. No account, no login. The app updates itself afterwards.</p>
+
+  <a class="dl" href="https://github.com/Hitanshushah007/morror-glass-releases/releases/latest/download/morror-art-app.apk">Download the app</a>
+  <div class="meta">morror-art-app.apk · about 0.4 MB · Android 8 and up</div>
+
+  <h2>Google will warn you. Here is what to tap.</h2>
+  <p>This app is not on the Play Store yet, so your phone treats it as unknown. That is expected. Four taps.</p>
+  <ol class="steps">
+    <li><b>The download warning</b>
+      <p>Chrome asks before saving any app that is not from the Play Store.</p>
+      <span class="say">“morror-art-app.apk might be harmful. Do you want to download it anyway?”</span>
+      <p>Tap <span class="tap">Download anyway</span>.</p></li>
+    <li><b>Allow installs from Chrome</b>
+      <p>Open the download. The first time, the phone says it is not allowed to install unknown apps from this source.</p>
+      <p>Tap <span class="tap">Settings</span>, turn on <span class="tap">Allow from this source</span>, then go back.</p></li>
+    <li><b>Play Protect</b>
+      <p>Play Protect says it does not recognise the developer. If it offers to scan the app, let it: the scan passes.</p>
+      <span class="say">“Unsafe app blocked” or “App scan recommended”</span>
+      <p>Tap <span class="tap">More details</span>, then <span class="tap">Install anyway</span>.</p></li>
+    <li><b>Open it</b>
+      <p>Tap <span class="tap">Open</span>. Setup walks you through Bluetooth, WiFi, your preferences and a sync check with a song you know.</p></li>
+  </ol>
+
+  <div class="after">
+    <b>After this, no more warnings.</b>
+    Updates arrive inside the app: one tap on the Speaker tab. You never repeat these steps.
+  </div>
+
+  <h2>Without the app</h2>
+  <p>The speaker works on its own. Pair over Bluetooth and play. For lyrics, press the dial, choose WiFi, pick your network and type the password with the dial: turn to choose a letter, press to type it, press done.</p>
+
+  <footer>MORROR ART · the speaker keeps every setting on the glass; the app is a remote for it.</footer>
+</div>
+</body>
+</html>
