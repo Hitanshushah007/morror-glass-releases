@@ -1,3 +1,5 @@
+**Install page (start here):** https://hitanshushah007.github.io/morror-glass-releases/ — explains the Android warnings, one download button.
+
 # MORROR ART — set up your speaker with the app
 
 **Before you start:** plug the speaker in and switch it on. Have your home WiFi password ready.
