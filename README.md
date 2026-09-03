@@ -4,7 +4,7 @@
 
 **1. Install the app** (Android)
 Open this link on your phone and tap the file it downloads:
-https://github.com/Hitanshushah007/morror-glass-releases/releases/latest/download/morror-art-app-1.1.apk
+https://github.com/Hitanshushah007/morror-glass-releases/releases/latest/download/morror-art-app.apk
 If your phone asks, allow installs from Chrome once, then tap **Install**. Open **MORROR ART**.
 
 **2. Pair the speaker over Bluetooth**
